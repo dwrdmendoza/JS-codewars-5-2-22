@@ -26,19 +26,19 @@ function getAge(inputString){
 when the last petal was torn there were cries of excitement, dreams, surghing thoughts and emotions.I
 your goal in this katat is to determine which pahrse the girls would say for a flower of a given number of petals, nb_petals > 0. */
 
-function howmUchILoveYou(nbPetals){
-  let x = nbPetals % 6
-  if(x === 1){
-    return 'I love you'
-  }else if(x===2){
-    return 'alittle'
-  }else if(x===3){
-    return 'alot'
-  }else if(x===4){
-    return 'passionately'
-  }else if(x===5){
-    return 'madly'
-  }else if(x===6 || x===0){
-    return 'not at all'
+function howMuchILoveYou(nbPetals) {
+  let n = nbPetals % 6
+  if(n===1){
+      return 'I love you'
+  }else if(n === 2){
+      return 'a little'
+  }else if(n === 3){
+      return 'a lot'
+  }else if(n === 4){
+      return 'passionately'
+  }else if(n === 5){
+      return 'madly'
+  }else if((n === 6) || (n === 0)){
+      return 'not at all'
   }
 }
